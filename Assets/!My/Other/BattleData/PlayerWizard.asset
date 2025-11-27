@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89b9e112f740ac49a05238259985269, type: 3}
+  m_Name: PlayerWizard
+  m_EditorClassIdentifier: Assembly-CSharp::BattleModePlayerDataSO
+  ID: Wizard
+  sprite: {fileID: 1884961537, guid: bec05cdbc2a73e84c868e25ea05d95a0, type: 3}
+  vfxAttak: {fileID: 7558696436062193334, guid: 7300eba7322f2894cac494b96935dc3e, type: 3}
+  Name: Wizard
+  Health: 80
+  MaxHealth: 80
+  AvilibleBoxesStart: 12
+  StepsBoxesStart: 4
