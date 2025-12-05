@@ -1,4 +1,4 @@
-name: Build project IOS
+﻿name: Build project IOS
 
 on: [workflow_dispatch]
 
@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         unity-version:
-          - 2022.3.33f1
+          - 6000.2.6f2
         os:
           - ubuntu-latest
         targetPlatform:
