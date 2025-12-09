@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0928ceac65466438ce2cab298c3b36, type: 3}
+  m_Name: Invictible
+  m_EditorClassIdentifier: 
+  ID: 
+  behaviourActions:
+  - rid: 2060361973090746455
+  - rid: 2060361973090746456
+  references:
+    version: 2
+    RefIds:
+    - rid: 2060361973090746455
+      type: {class: AddScoreGrapAction, ns: , asm: Assembly-CSharp}
+      data:
+        Title: 
+        AddScore: 200
+    - rid: 2060361973090746456
+      type: {class: InvictibleGrapAction, ns: , asm: Assembly-CSharp}
+      data:
+        Title: 
+        Duration: 4

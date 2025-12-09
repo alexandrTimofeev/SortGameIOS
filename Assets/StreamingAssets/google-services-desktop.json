@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "122271573196",
+    "project_id": "sortinghero",
+    "storage_bucket": "sortinghero.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122271573196:ios:dd627e6b3f0575bb344e69",
+        "android_client_info": {
+          "package_name": "com.snk.sortinghero"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxWGiSeA5cuY_ku2vIhnoB5VntMsFje2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

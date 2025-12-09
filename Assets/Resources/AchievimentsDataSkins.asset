@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7dc7510d721b0488c13e58c4157800, type: 3}
+  m_Name: AchievimentsDataSkins
+  m_EditorClassIdentifier: 
+  allAchiviements:
+  - Info:
+      ID: none
+      Title: 
+      InfoTxt: This is a standard skin
+      spriteYes: {fileID: -6015529082007714420, guid: e612521f72e4ac347b3c7ac4aae8dc60, type: 3}
+      spriteNo: {fileID: -5468149952408812016, guid: 911cc6f653bd57d46a5d4a7d116d04c8, type: 3}
+    achievementBehaviour:
+      rid: -2
+  - Info:
+      ID: skin1
+      Title: 
+      InfoTxt: Complete level 7
+      spriteYes: {fileID: 8432833046894688570, guid: e612521f72e4ac347b3c7ac4aae8dc60, type: 3}
+      spriteNo: {fileID: -5468149952408812016, guid: 911cc6f653bd57d46a5d4a7d116d04c8, type: 3}
+    achievementBehaviour:
+      rid: 367706949558468707
+  - Info:
+      ID: NoDamage
+      Title: 
+      InfoTxt: Complete any level without damage
+      spriteYes: {fileID: -4188199897722961435, guid: e612521f72e4ac347b3c7ac4aae8dc60, type: 3}
+      spriteNo: {fileID: -5468149952408812016, guid: 911cc6f653bd57d46a5d4a7d116d04c8, type: 3}
+    achievementBehaviour:
+      rid: 367706969914474649
+  - Info:
+      ID: NoDamageLast
+      Title: 
+      InfoTxt: Complete the last level without damage
+      spriteYes: {fileID: 445602605301077070, guid: e612521f72e4ac347b3c7ac4aae8dc60, type: 3}
+      spriteNo: {fileID: -5468149952408812016, guid: 911cc6f653bd57d46a5d4a7d116d04c8, type: 3}
+    achievementBehaviour:
+      rid: 367706969914474662
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 367706949558468707
+      type: {class: EndLvlAchiv, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: skin1
+        ProgressType: 0
+        EndValue: 0
+        level: 6
+        LastLvlPrefsName: LastLvl
+    - rid: 367706969914474649
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: NoDamage
+        ProgressType: 0
+        EndValue: 0
+    - rid: 367706969914474662
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: NoDamageLast
+        ProgressType: 0
+        EndValue: 0
